@@ -5,15 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patrick Isolokwu - Data Analyst Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <!-- Header -->
+  <!-- Header with Hamburger Menu -->
   <header>
     <div class="container">
       <h1>Patrick Isolokwu</h1>
-      <p>Turning Data into Insights</p>
       <nav>
-        <ul>
+        <button class="hamburger" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About Me</a></li>
@@ -31,7 +34,7 @@
     <div class="container">
       <img src="images/profile.jpg" alt="Patrick Isolokwu" class="profile-photo">
       <h2>Hi, I'm Patrick Isolokwu</h2>
-      <p>A detail-oriented Data Analyst with over 3 years of experience in transforming complex data into actionable insights. I specialize in designing dashboards with BI tools and conducting in-depth analyses to drive strategic decisions.</p>
+      <p>A detail-oriented Data Analyst with over 3 years of experience in transforming complex data into actionable insights.</p>
     </div>
   </section>
 
@@ -42,10 +45,10 @@
       <div class="project-grid">
         <!-- Project 1 -->
         <div class="project-card">
-          <img src="images/project1.jpg" alt="Impact Analysis of Transportation Costs">
+          <img src="images/project1.png" alt="Impact Analysis of Transportation Costs">
           <h3>Impact Analysis of Transportation Costs on NYSC Members</h3>
           <p>Analyzed transportation costs and maintained Power BI dashboard metrics to provide actionable insights.</p>
-          <a href="https://www.datascienceportfol.io/patrickisolokwu/projects/0" class="btn">View Project</a>
+          <a href="#" class="btn">View Project</a>
         </div>
         <!-- Project 2 -->
         <div class="project-card">
@@ -70,7 +73,6 @@
     <div class="container">
       <h2>About Me</h2>
       <p>I hold a Bachelor’s degree in Computer Science from Godfrey Okoye University, Nigeria. With over 3 years of experience in data analysis, I have worked across industries like banking and advertising, delivering actionable insights to drive business growth.</p>
-      <p>My expertise includes predictive modeling, data visualization, and automating KPI reports for enhanced accuracy and efficiency.</p>
     </div>
   </section>
 
@@ -116,7 +118,7 @@
   <!-- Experience Section -->
   <section id="experience" class="experience">
     <div class="container">
-      <h2>Professional Experience</h2>
+      <h2>Experience</h2>
       <div class="experience-item">
         <h3>Income/Quality Assurance Data Analyst</h3>
         <p><strong>Zenith Bank PLC, Lagos</strong> | Aug 2023 – Present</p>
@@ -145,8 +147,7 @@
         <input type="text" name="name" placeholder="Your Name" required>
         <input type="email" name="email" placeholder="Your Email" required>
         <textarea name="message" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn">SEND MESSAGE</button>
-        <input type="hidden" name="_next" value="thank-you.html">
+        <button type="submit" class="btn">Send Message</button>
       </form>
       <div class="social-links">
         <a href="https://linkedin.com/in/patrick-isolokwu" target="_blank">LinkedIn</a>
@@ -158,7 +159,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2025 Patrick Isolokwu. All rights reserved.</p>
+      <p>&copy; 2023 Patrick Isolokwu. All rights reserved.</p>
     </div>
   </footer>
 

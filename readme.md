@@ -1,7 +1,6 @@
 portfolio-website/
 │
 ├── index.html
-├── certifications.html
 ├── style.css
 ├── script.js
 ├── images/
