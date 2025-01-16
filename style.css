@@ -235,3 +235,78 @@ body {
     margin: 0;
     color: #666;
   }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    /* Adjust header navigation for mobile */
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    /* Adjust home section for mobile */
+    .home {
+      padding: 30px 0;
+    }
+  
+    .profile-photo {
+      width: 120px;
+      height: 120px;
+    }
+  
+    /* Adjust project grid for mobile */
+    .project-grid {
+      grid-template-columns: 1fr; /* Single column for mobile */
+    }
+  
+    /* Adjust skills grid for mobile */
+    .skills-grid {
+      grid-template-columns: 1fr; /* Single column for mobile */
+    }
+  
+    /* Adjust contact form for mobile */
+    form input, form textarea {
+      width: 100%;
+    }
+  
+    /* Adjust certifications list for mobile */
+    .certifications-list {
+      padding-left: 10px;
+    }
+  
+    .certifications-list li {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    header h1 {
+      font-size: 24px;
+    }
+  
+    header p {
+      font-size: 14px;
+    }
+  
+    .home h2 {
+      font-size: 20px;
+    }
+  
+    .btn {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .project-card h3 {
+      font-size: 18px;
+    }
+  
+    .experience-item h3 {
+      font-size: 18px;
+    }
+  
+    .certifications-list h3 {
+      font-size: 16px;
+    }
+  }
